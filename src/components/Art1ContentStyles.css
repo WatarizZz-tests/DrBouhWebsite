@@ -1,0 +1,66 @@
+.hoops {
+  width: 100%;
+  margin: 3rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 1440px; /* Set a maximum width for your container */
+
+overflow: hidden; /* Hide any content that overflows the container */
+}
+.sectiono {
+  margin-bottom: 40px;
+}
+
+.contento {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Center align items vertically */
+}
+
+.contento p {
+  flex: 1;
+  
+  text-align:justify ;
+}
+
+.image-contenor img {
+  max-width: 100%;
+  height: 100%;
+  max-height: 600px; /* Set a maximum height if needed */
+  border-radius: 3%;
+  
+  
+  padding: 1rem;
+}
+
+/* Adjust styling as needed */
+h2 {
+  color: #ffefef;
+  font-size: 1.5em;
+}
+
+.image-contenor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+@media screen and (max-width:1440px) {
+  .hoops {
+    width: 90%;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+     /* Set a maximum width for your container */
+  
+  overflow: hidden; /* Hide any content that overflows the container */
+  }
+  
+}

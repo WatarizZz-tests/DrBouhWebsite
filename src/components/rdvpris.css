@@ -1,0 +1,11 @@
+.green {
+    display: flex;
+    font-size: 1.1rem;
+    color: rgb(47, 153, 47);
+    margin: 1rem 1rem;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
